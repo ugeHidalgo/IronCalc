@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ED5102114BF459700FACC1F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED5102014BF459700FACC1F /* Cocoa.framework */; };
+		5ED5102B14BF459700FACC1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5ED5102914BF459700FACC1F /* InfoPlist.strings */; };
+		5ED5102D14BF459700FACC1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED5102C14BF459700FACC1F /* main.m */; };
+		5ED5103114BF459700FACC1F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5ED5102F14BF459700FACC1F /* Credits.rtf */; };
+		5ED5103414BF459700FACC1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED5103314BF459700FACC1F /* AppDelegate.m */; };
+		5ED5103714BF459800FACC1F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ED5103514BF459800FACC1F /* MainMenu.xib */; };
+		5EF51C2D14C05D6100ED5E4F /* timeCalcs.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF51C2C14C05D6100ED5E4F /* timeCalcs.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5ED5101C14BF459700FACC1F /* IronCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED5102014BF459700FACC1F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5ED5102314BF459700FACC1F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5ED5102414BF459700FACC1F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5ED5102514BF459700FACC1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5ED5102814BF459700FACC1F /* IronCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IronCalc-Info.plist"; sourceTree = "<group>"; };
+		5ED5102A14BF459700FACC1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5ED5102C14BF459700FACC1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5ED5102E14BF459700FACC1F /* IronCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IronCalc-Prefix.pch"; sourceTree = "<group>"; };
+		5ED5103014BF459700FACC1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5ED5103214BF459700FACC1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5ED5103314BF459700FACC1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5ED5103614BF459800FACC1F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5EF51C2B14C05D6100ED5E4F /* timeCalcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timeCalcs.h; sourceTree = "<group>"; };
+		5EF51C2C14C05D6100ED5E4F /* timeCalcs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timeCalcs.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ED5101914BF459700FACC1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED5102114BF459700FACC1F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ED5101114BF459700FACC1F = {
+			isa = PBXGroup;
+			children = (
+				5ED5102614BF459700FACC1F /* IronCalc */,
+				5ED5101F14BF459700FACC1F /* Frameworks */,
+				5ED5101D14BF459700FACC1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ED5101D14BF459700FACC1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ED5101C14BF459700FACC1F /* IronCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ED5101F14BF459700FACC1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ED5102014BF459700FACC1F /* Cocoa.framework */,
+				5ED5102214BF459700FACC1F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5ED5102214BF459700FACC1F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ED5102314BF459700FACC1F /* AppKit.framework */,
+				5ED5102414BF459700FACC1F /* CoreData.framework */,
+				5ED5102514BF459700FACC1F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5ED5102614BF459700FACC1F /* IronCalc */ = {
+			isa = PBXGroup;
+			children = (
+				5ED5103214BF459700FACC1F /* AppDelegate.h */,
+				5ED5103314BF459700FACC1F /* AppDelegate.m */,
+				5ED5103514BF459800FACC1F /* MainMenu.xib */,
+				5ED5102714BF459700FACC1F /* Supporting Files */,
+				5EF51C2B14C05D6100ED5E4F /* timeCalcs.h */,
+				5EF51C2C14C05D6100ED5E4F /* timeCalcs.m */,
+			);
+			path = IronCalc;
+			sourceTree = "<group>";
+		};
+		5ED5102714BF459700FACC1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ED5102814BF459700FACC1F /* IronCalc-Info.plist */,
+				5ED5102914BF459700FACC1F /* InfoPlist.strings */,
+				5ED5102C14BF459700FACC1F /* main.m */,
+				5ED5102E14BF459700FACC1F /* IronCalc-Prefix.pch */,
+				5ED5102F14BF459700FACC1F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ED5101B14BF459700FACC1F /* IronCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED5103A14BF459800FACC1F /* Build configuration list for PBXNativeTarget "IronCalc" */;
+			buildPhases = (
+				5ED5101814BF459700FACC1F /* Sources */,
+				5ED5101914BF459700FACC1F /* Frameworks */,
+				5ED5101A14BF459700FACC1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IronCalc;
+			productName = IronCalc;
+			productReference = 5ED5101C14BF459700FACC1F /* IronCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ED5101314BF459700FACC1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5ED5101614BF459700FACC1F /* Build configuration list for PBXProject "IronCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5ED5101114BF459700FACC1F;
+			productRefGroup = 5ED5101D14BF459700FACC1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ED5101B14BF459700FACC1F /* IronCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ED5101A14BF459700FACC1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED5102B14BF459700FACC1F /* InfoPlist.strings in Resources */,
+				5ED5103114BF459700FACC1F /* Credits.rtf in Resources */,
+				5ED5103714BF459800FACC1F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ED5101814BF459700FACC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED5102D14BF459700FACC1F /* main.m in Sources */,
+				5ED5103414BF459700FACC1F /* AppDelegate.m in Sources */,
+				5EF51C2D14C05D6100ED5E4F /* timeCalcs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5ED5102914BF459700FACC1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ED5102A14BF459700FACC1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5ED5102F14BF459700FACC1F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ED5103014BF459700FACC1F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5ED5103514BF459800FACC1F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ED5103614BF459800FACC1F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ED5103814BF459800FACC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5ED5103914BF459800FACC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5ED5103B14BF459800FACC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IronCalc/IronCalc-Prefix.pch";
+				INFOPLIST_FILE = "IronCalc/IronCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5ED5103C14BF459800FACC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IronCalc/IronCalc-Prefix.pch";
+				INFOPLIST_FILE = "IronCalc/IronCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ED5101614BF459700FACC1F /* Build configuration list for PBXProject "IronCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED5103814BF459800FACC1F /* Debug */,
+				5ED5103914BF459800FACC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED5103A14BF459800FACC1F /* Build configuration list for PBXNativeTarget "IronCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED5103B14BF459800FACC1F /* Debug */,
+				5ED5103C14BF459800FACC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ED5101314BF459700FACC1F /* Project object */;
+}
